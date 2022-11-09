@@ -4,20 +4,20 @@ TRY иаоентрвсйлпкыьямдушзбгчщюжцхфэъүәңөһҗ
 
 FLAG long
 SFX Ad Y 204
-SFX Ad   0 м [^н]
-SFX Ad   н м н +OWN1
-SFX Ad   0 мдн [^н]
-SFX Ad   н мдн н +OWN1+PLURAL
-SFX Ad   0 чн . 
-SFX Ad   0 тн .
-SFX Ad   0 нь [^н]
-SFX Ad   н нь н
-SFX Ad   0 а н
-SFX Ad   0 аннь н
-SFX Ad   0 анм н
-SFX Ad   0 амдн н
-SFX Ad   0 анчн н
-SFX Ad   0 антн н
+SFX Ad   0 м [^н] +м(PR1)
+SFX Ad   н м н +м(PR1)
+SFX Ad   0 мдн [^н] +мдн(PR1)
+SFX Ad   н мдн н +мдн(PRP1)
+SFX Ad   0 чн . +чн(PR2)
+SFX Ad   0 тн . +тн(PRP2)
+SFX Ad   0 нь [^н] +нь(PR3)
+SFX Ad   н нь н +нь(PR3)
+SFX Ad   0 а н +а(NC1)
+SFX Ad   0 аннь н +a(NC1)_+[н]нь(PR0)
+SFX Ad   0 анм н +ан(NC1)_+м(PR1)
+SFX Ad   0 амдн н +а(NC1)_+мдн(PRP1)
+SFX Ad   0 анчн н +ан(NC1)_+чн(PR2)
+SFX Ad   0 антн н +ан(NC1)_+тн(PRP2)
 SFX Ad   0 ын [лндт]
 SFX Ad   0 ыннь [лндт]
 SFX Ad   0 ынм [лндт]
